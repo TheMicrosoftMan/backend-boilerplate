@@ -1,0 +1,50 @@
+{
+	"name": "backend-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"start": "node ./src/app.js",
+		"lint": "npm run prettier && npm run eslint",
+		"lint:check": "npm run prettier:check && npm run eslint:check",
+		"eslint": "eslint . --fix",
+		"eslint:check": "eslint .",
+		"prettier": "prettier --write .",
+		"prettier:check": "prettier --check ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheMicrosoftMan/backend-boilerplate.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TheMicrosoftMan/backend-boilerplate/issues"
+	},
+	"homepage": "https://github.com/TheMicrosoftMan/backend-boilerplate#readme",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"argon2": "^0.27.0",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dayjs": "^1.9.7",
+		"express": "^4.17.1",
+		"express-jwt": "^6.0.0",
+		"express-session": "^1.17.1",
+		"joi": "^17.3.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongo-dot-notation-tool": "^1.0.1",
+		"mongoose": "^5.11.7",
+		"mongoose-to-swagger": "^1.1.1",
+		"multer": "^1.4.2",
+		"swagger-jsdoc": "^6.0.0-rc.3",
+		"swagger-ui-express": "^4.1.5"
+	},
+	"devDependencies": {
+		"eslint": "^7.15.0",
+		"prettier": "2.2.1"
+	}
+}

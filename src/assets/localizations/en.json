@@ -1,0 +1,21 @@
+{
+	"ERRORS": {
+		"AUTH": {
+			"CONFIRMATION_DOES_NOT_EXIST": "Wrong confirmation code",
+			"INVALID_PASSWORD_RESET_TOKEN": "Password reset token is invalid or has expired",
+			"REFRESH_TOKEN_DOES_NOT_FOUND": "Refresh token does not exist",
+			"UNAUTHORIZED": "Unauthorized",
+			"WRONG_LOGIN_OR_PASSWORD": "Wrong login or password"
+		},
+		"USER": {
+			"ADMIN_EXIST": "Admin already exists",
+			"USER_DOES_NOT_EXIST": "User does not exist",
+			"USER_EXIST": "User is already exists",
+			"USER_IS_NOT_CONFIRMED": "User is not confirmed"
+		},
+		"VALIDATION": {
+			"ID_IS_MISSING": "Id is missing",
+			"ID_IS_WRONG": "Id is wrong"
+		}
+	}
+}
